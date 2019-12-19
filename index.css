@@ -17,7 +17,7 @@ body {
   padding: 26px;
   width: 1200px;
 }
-img {
+.main_sub_div img {
   width: 30px;
   cursor: pointer;
 }
