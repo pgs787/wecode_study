@@ -1,0 +1,13 @@
+body main_top_div {
+  width: 1010px;
+  height: 77px;
+}
+h1 {
+  color: blue;
+}
+iframe {
+  width: 100%;
+}
+img {
+  width: 24px;
+}
