@@ -55,6 +55,8 @@ body {
 }
 .body_div {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .body_div span {
