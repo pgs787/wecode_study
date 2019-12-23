@@ -131,18 +131,34 @@ body {
   align-items: center;
   font-size: 13px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .name_div span {
   position: absolute;
   margin: 0;
   margin-left: 15px;
 }
+.name_detail_div {
+  border-radius: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+.name_detail_div img {
+  height: 44px;
+  margin-left: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
 .story_div {
-  padding-top: 10px;
-  padding-left: 15px;
-
+  width: 100%;
+  padding-top: 15px;
   border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   background-color: white;
-  margin: 10px 0 0 30px;
+  margin: 10px 0 0 2 0px;
   border-radius: 5px;
 }
