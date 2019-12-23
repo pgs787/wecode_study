@@ -20,12 +20,9 @@ body {
   min-width: 500px;
   justify-content: center;
   background-color: white;
+  border: solid 1px black;
 }
-.main_sub_div img {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}
+
 .main_top_div span {
   vertical-align: 5px;
   font-size: 28px;
@@ -49,7 +46,9 @@ body {
 }
 .main_sub_div img {
   width: 25px;
+  cursor: pointer;
 }
+
 /* 메인 내용 상단 바  */
 .body_wrapper {
   padding: 60px 150px;
