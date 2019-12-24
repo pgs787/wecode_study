@@ -31,7 +31,7 @@ body {
   margin: 0 auto;
   vertical-align: top;
   text-align: center;
-  min-width: 235px;
+  width: 235px;
   height: 28px;
   color: gray;
   font-size: 14px;
@@ -40,7 +40,7 @@ body {
   display: flex;
   float: right;
   justify-content: space-between;
-  min-width: 150px;
+  width: 150px;
 }
 .main_sub_div img {
   height: 30px;
@@ -48,24 +48,27 @@ body {
 }
 
 /* 메인 내용 상단 바  */
-.body_div {
-  width: 100%;
-  display: flex;
-  margin-top: 150px;
-  justify-content: center;
-}
+
 .body_div span {
   width: 30px;
   margin: 5px 10px;
 }
 .body_wrapper {
-  width: 1030px;
+  padding-top: 140px;
+  margin: 0 auto;
+  width: 1100px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   position: relative;
+  flex-direction: row;
+}
+.main_articl_div {
+  position: absolute;
+  float: left;
+  max-width: 614px;
+  width: 100%;
 }
 .main_article {
-  width: 720px;
   margin-bottom: 50px;
 }
 .main_article .title {
@@ -115,15 +118,14 @@ body {
   height: 50px;
   border-top: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   color: #2b2b2b42;
-
   font-size: 17px;
 }
 
 /* 오른쪽 DIV */
 .sub_article {
-  max-width: 293px;
+  max-width: 300px;
   position: absolute;
-  right: 0;
+  right: 50px;
 }
 .name_div {
   width: 293px;
@@ -159,6 +161,6 @@ body {
   padding-top: 15px;
   border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   background-color: white;
-  margin: 10px 0 0 2 0px;
+  margin: 10px 0 0 30px;
   border-radius: 5px;
 }
