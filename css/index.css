@@ -17,6 +17,7 @@ body {
   max-width: 1010px;
   width: 100%;
   position: relative;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .main_top_div span {
